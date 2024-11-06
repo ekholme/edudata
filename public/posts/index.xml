@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on EduData</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on EduData</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Eric Ekholm</copyright>
+    <lastBuildDate>Wed, 06 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Demo Post</title>
+      <link>http://example.org/posts/demo/</link>
+      <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/demo/</guid>
+      <description>Subheader Some text!
+a smaller subheader and some more text.</description>
+    </item>
+    
+  </channel>
+</rss>

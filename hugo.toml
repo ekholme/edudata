@@ -2,3 +2,31 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'EduData'
 theme = 'archie' 
+copyright = "© Eric Ekholm"
+paginate = 4
+
+[params]
+favicon = "https://img.icons8.com/officel/16/000000/chevron-right.png"
+mode = "toggle"
+useCDN = true
+subtitle = "A blog at the intersection of education and data"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
