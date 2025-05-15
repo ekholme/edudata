@@ -80,3 +80,9 @@ ps <- list(base_plot, op_title_plot, fewer_colors_plot)
 nms <- c("base_plot", "op_title_plot", "fewer_colors_plot")
 
 outpaths <- paste0("plots/opinionated_plots/", nms, ".png")
+
+walk2(
+    outpaths,
+    ps,
+    ggsave
+)
